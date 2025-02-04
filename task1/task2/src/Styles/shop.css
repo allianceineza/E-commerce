@@ -1,0 +1,21 @@
+.shop2{
+    display: flex;
+}
+.links{
+    display: block;
+}
+.links a{
+    margin-top: 10px;
+}
+.showing{
+    display:block
+}
+.results{
+    display: flex;
+}
+.shopposts{
+    display: flex;
+}
+.shop1{
+height: fit-content;
+}

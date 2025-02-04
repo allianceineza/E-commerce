@@ -21,8 +21,17 @@ function Navbar(){
                 <option>Home & Garden</option>
             </select>
         </div>
+        <div class="search-box">
+
         <input type="text" className="search-input" placeholder="Search products..."/>
-            <button className="search-btn"><i className="fas fa-search"></i></button>
+        <button type="submit">
+           
+            <div class="search-icon"> 
+                <i class="fas fa-search"></i>
+            </div>
+        </button>
+        </div>
+            {/* <button className="search-btn"><i className="fas fa-search"></i></button> */}
            <div className="icons">
             <div className="user">
                 <LuUserRound />
@@ -42,9 +51,9 @@ function Navbar(){
         <div className="nav-links">
             <a href="/home">Home</a>
             <a href="/shop">Shop</a>
-            <a href="/vendor">Vendors</a>
+            <Link to="/Vendors">Vendors</Link>
             <a href="/blog">Blog</a>
-            <a href="/contact">Contact</a>
+            <Link to="/Contact">Contact</Link>
         </div>
         <div className="contact">
             <i className="phone"></i> <IoCallOutline />
